@@ -1,0 +1,231 @@
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
+
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .product-specification .table td, .product-specification .table th {
+    padding: .55rem 0.75rem;
+  }
+  .woocommerce div.product div.summary, .woocommerce #content div.product div.summary, .woocommerce-page div.product div.summary, .woocommerce-page #content div.product div.summary,
+  .woocommerce div.product div.images, .woocommerce #content div.product div.images, .woocommerce-page div.product div.images, .woocommerce-page #content div.product div.images{
+    width: 100%;
+  }
+  .capabilities .container-fluid > div > div {
+    padding: 0 15px;
+  }
+  .capabilities .capabilities-heading {
+    margin-bottom: 0;
+  }
+  .capabilities .container-fluid > div > div.capabilities-wrap {
+    margin-top: 50px;
+    padding: 0 15px;
+  }
+  .product-branding-wrap .product-listing-product {
+    margin-top: 0;
+  }
+  .cat-content-box-fix {
+    .p-lr {
+      margin-top: 0;
+    }
+    .content-box {
+      padding: 40px;
+      margin-left: 0;
+    }
+  }
+  .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    width: 50%;
+  }
+  .product-listing-banner {
+    padding: 145px 0px 125px 0;
+  }
+  .capabilities {
+    margin-bottom: 30px;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .product-specification .table td, .product-specification .table th {
+    padding: .55rem 0.75rem;
+    font-size: 16px;
+  }
+  .product-specification .pro-tab-slider-content {
+    padding: 45px 15px;
+  }
+  .woocommerce div.product div.summary, .woocommerce #content div.product div.summary, .woocommerce-page div.product div.summary, .woocommerce-page #content div.product div.summary {
+    padding: 50px;
+  }
+  .woocommerce div.product div.summary, .woocommerce #content div.product div.summary, .woocommerce-page div.product div.summary, .woocommerce-page #content div.product div.summary,
+  .woocommerce div.product div.images, .woocommerce #content div.product div.images, .woocommerce-page div.product div.images, .woocommerce-page #content div.product div.images{
+    width: 100%;
+  }
+  .capabilities .container-fluid > div > div {
+    padding: 0 15px;
+  }
+  .capabilities .capabilities-heading {
+    margin-bottom: 0;
+  }
+  .capabilities .container-fluid > div > div.capabilities-wrap {
+    margin-top: 50px;
+    padding: 0 15px;
+  }
+  .product-branding-wrap .product-listing-product {
+    margin-top: 0;
+  }
+  .cat-content-box-fix {
+    .content-box {
+      padding: 40px;
+      margin-left: 0;
+    }
+  }
+  .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    width: 50%;
+  }
+  .section-product-private {
+    padding-top: 80px;
+  }
+  .pro-pri-wrap.pro-pri-has-thumb .pro-pri-thumbs {
+    margin-top: 30px;
+  }
+  .pro-pri-wrap.pro-pri-wrap {
+    margin-top: 0;
+  }
+  .product-listing-banner {
+    padding: 145px 0px 125px 0;
+  }
+  .capabilities {
+    margin-bottom: 30px;
+  }
+}
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 767px) {
+
+
+  .pro-pri-wrap.pro-pri-has-thumb .pro-pri-item {
+    padding: 108px 15px 60px;
+  }
+  .product-specification .table td, .product-specification .table th {
+    padding: .25rem 0.75rem;
+    font-size: 13px;
+  }
+  .product-specification .pro-tab-slider-content {
+    padding: 45px 15px;
+  }
+  .woocommerce div.product form.cart .button {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    float: none;
+  }
+  .woocommerce div.product div.summary, .woocommerce #content div.product div.summary, .woocommerce-page div.product div.summary, .woocommerce-page #content div.product div.summary {
+    padding: 40px 45px;
+  }
+  .woocommerce div.product div.summary, .woocommerce #content div.product div.summary, .woocommerce-page div.product div.summary, .woocommerce-page #content div.product div.summary,
+  .woocommerce div.product div.images, .woocommerce #content div.product div.images, .woocommerce-page div.product div.images, .woocommerce-page #content div.product div.images{
+    width: 100%;
+  }
+  .capabilities {
+    margin-bottom: 30px;
+  }
+  .capabilities .container-fluid > div > div {
+    padding: 0 15px;
+  }
+  .capabilities .capabilities-heading {
+    margin-bottom: 0;
+  }
+  .capabilities .container-fluid > div > div.capabilities-wrap {
+    margin-top: 50px;
+    padding: 0 15px;
+  }
+  .product-branding-wrap {
+    h2{
+        font-size: 60px;
+    }
+
+  }
+  .product-branding-wrap .product-listing-product {
+    margin-top: 0;
+  }
+  .product-listing-banner {
+    padding: 195px 0px 55px 0;
+  }
+  .product-category-section .pro-cat-wrap {
+    margin: 0 auto;
+
+    h5{
+      font-size: 22px;
+    }
+  }
+
+  .brand-logo {
+    padding-top: 30px;
+  }
+  .brand-logo .brand-col > div {
+    padding: 10px;
+  }
+  .footer ul > li {
+    padding: 13px 0;
+    text-align: center;
+  }
+  .woocommerce ul.products li.product a {
+    max-width: 100%;
+  }
+  .product-listing-product {
+    padding: 0 30px 50px;
+  }
+  .woocommerce ul.products li.product h3, .woocommerce ul.products li.product .woocommerce-loop-product__title, .woocommerce ul.products li.product .woocommerce-loop-category__title {
+    font-size: 15px;
+  }
+    .woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product,.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    width: 50%;
+    padding: 0 10px;
+  }
+  .product-listing-product .load-more {
+    padding-top: 20px;
+  }
+  .product-listing-product .container-fluid {
+    padding: 50px 30px;
+  }
+  .category-brand-logo .col:first-child .cat-logo,
+  .category-brand-logo .col:last-child .cat-logo{
+    padding-left: 24px;
+  }
+  .category-brand-logo .col {
+    flex-basis: 0;
+  }
+
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 480px) {
+  h3, .product_title, .woocommerce div.product span.price, .woocommerce div.product p.price {
+    font-size: 30px;
+  }
+  .woocommerce div.product div.summary, .woocommerce #content div.product div.summary, .woocommerce-page div.product div.summary, .woocommerce-page #content div.product div.summary {
+    padding: 20px;
+  }
+
+  .woocommerce div.product div.summary, .woocommerce #content div.product div.summary, .woocommerce-page div.product div.summary, .woocommerce-page #content div.product div.summary,
+  .woocommerce div.product div.images, .woocommerce #content div.product div.images, .woocommerce-page div.product div.images, .woocommerce-page #content div.product div.images  ,
+.woocommerce ul.products[class*=columns-] li.product, .woocommerce-page ul.products[class*=columns-] li.product,.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    width: 100%;
+  }
+  .brand-logo .col:after {
+    display: none;
+  }
+  .brand-logo .col > div {
+    border: 0;
+  }
+  .col {
+    flex-basis: auto;
+  }
+  .subscribe{
+    .col {
+      flex-basis: auto;
+      padding: 0;
+    }
+  }
+}

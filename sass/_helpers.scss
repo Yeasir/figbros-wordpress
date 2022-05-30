@@ -1,0 +1,449 @@
+/* ==========================================================================
+> Helper css
+========================================================================== */
+.after {
+  position: absolute;
+  content: " ";
+  display: block;
+}
+
+.default-page {
+  header.header{
+    background: $black;
+  }
+  .main {
+    padding-top: 300px;
+  }
+}
+
+.btn,.btn.focus, .btn:focus,a:hover, a:focus, a:active{
+  box-shadow: none;
+  outline: none;
+}
+.container{
+  max-width: 1562px;
+}
+.container-fluid{
+  padding: 0 50px;
+}
+
+::-webkit-input-placeholder {
+  color: $white;
+  font-weight: 300 !important;
+}
+::-moz-placeholder {
+  color: $white;
+  font-weight: 300 !important;
+}
+:-ms-input-placeholder {
+  color: $white;
+  font-weight: 300 !important;
+}
+:-moz-placeholder {
+  color: $white;
+  font-weight: 300 !important;
+}
+.red-text{
+  color: $red;
+}
+.yellow-text{
+  color: $orange;
+}
+.black-text{
+   color: $black;
+ }
+.white-text{
+  color: $white;
+}
+.transparent-bg{
+  background-color: transparent;
+}
+.black-bg{
+  background-color: $black;
+}
+.yellow-bg{
+  background-color: $orange;
+}
+
+.white-bg{
+  background-color:$white;
+}
+.modal-open .modal{
+  z-index: 9999999999999999999;
+}
+
+
+.close{
+  margin-top: -33px;
+  margin-right: 20px;
+}
+
+.position-absolute{
+   left: 0;
+  right: 0;
+  z-index: 9999999999999;
+}
+
+
+.login-modal{
+  .close{
+    margin-top: 15px;
+    margin-right: 34px;
+  }
+}
+
+.dropdown-toggle::after{
+  content: '\f2f9';
+  font-family: "Material-Design-Iconic-Font";
+  vertical-align: bottom;
+  border-top: none;
+  margin-left: 5px;
+  border-left: none;
+}
+p{
+  line-height: 30px;
+}
+.custom-btn,
+.woocommerce div.product form.cart .button{
+    border-width: 2px;
+    border-color: $black;
+    border-style: solid;
+    border-radius: 42px;
+    background-color:$red;
+    padding: 13px 60px;
+    font-size: $base-font-size+2;
+    font-family: $anton;
+    color: $white;
+  letter-spacing: .25px;
+    line-height: 1.5;
+  display: inline-block;
+  &:hover,&:active,&:focus,
+  &.woocommerce div.product form.cart .button:hover{
+    color: $white;
+    background-color:$orange;
+    border-color: $orange;
+  }
+
+}
+
+.product-listing-banner {
+  .custom-btn,
+  .woocommerce div.product form.cart .button{
+    border-color: $white;
+  }
+}
+
+.btn,
+.woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit{
+  font-family: $anton;
+  font-weight: $regular;
+  font-size: $base-font-size;
+  background: $red;
+  color: $white;
+  border-color: $black;
+  border-width: 2px;
+  padding: 20px 44px;
+  line-height: 1.467;
+  letter-spacing: .25px;
+  border-radius: 35px;
+
+  &:hover {
+    color: $white;
+    background: $orange;
+    border-color: $black;
+  }
+}
+.woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce #respond input#submit{
+  text-transform: uppercase;
+  font-size: $base-font-size;
+  line-height: 30px;
+  letter-spacing: 0.25px;
+  border-style: solid;
+  padding: 7px 29px;
+  background: $orange;
+}
+.woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover, .woocommerce #respond input#submit:hover{
+  color: $white;
+  background: $red;
+  border-color: $black;
+}
+
+.p-lab{
+   position: absolute;
+  left: 0;
+}
+
+.p-lr{
+  content: '';
+  left: 8%;
+  z-index: 1;
+  margin-top: -70px;
+}
+.bottom-right{
+  position: relative;
+  &:before{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 60px;
+    height: 7px;
+    background: $red;
+  }
+  &:after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 7px;
+    height: 60px;
+    background: $red;
+  }
+}
+
+
+.top-left{
+  position: relative;
+  &:before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60px;
+    height: 7px;
+    background: $red;
+  }
+  &:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 7px;
+    height: 60px;
+    background: $red;
+  }
+}
+
+.search-page .main{
+  padding-top: 181px;
+}
+.cross{
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  background-color: $red;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 9999999;
+  i{
+    line-height: 60px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    color: $white;
+  }
+}
+
+.close{
+  width: 45px;
+  height: 45px;
+  margin: 0 auto;
+  background-color: $red;
+  z-index: 9999999;
+  opacity: 1;
+  i{
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    color: $white;
+    line-height: 40px;
+  }
+}
+.pl-100{
+  padding-left: 50px;
+}
+.pr-100{
+  padding-right: 50px;
+}
+.cart-page .main{
+  padding-top: 180px;
+}
+
+.modal-open{overflow:hidden;padding-right:0 !important;}
+
+//col 5 grid
+.col-2dot4,
+.col-sm-2dot4,
+.col-md-2dot4,
+.col-lg-2dot4,
+.col-xl-2dot4 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.col-2dot4 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 20%;
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+@media (min-width: 719px) {
+  .col-sm-2dot4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+@media (min-width: 720px) {
+  .col-md-2dot4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 30%;
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+}
+@media (min-width: 960px) {
+  .col-lg-2dot4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+@media (min-width: 1140px) {
+  .col-xl-2dot4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+a.edit-btn{
+  font-size: 18px;
+  font-family: $muli;
+  color:$orange !important;
+  line-height: 1.637;
+  text-transform: capitalize !important;
+  &:hover{
+    color:$red !important;
+  }
+  i{
+    padding-right: 5px;
+  }
+}
+.mb-70{
+  margin-bottom: 70px;
+}
+.mb-35{
+  margin-bottom: 35px;
+}
+.mb-40{
+  margin-bottom: 40px;
+}
+.mb-45{
+  margin-bottom: 45px;
+}
+.pt-35{
+  padding-top: 35px;
+}
+.pb-35{
+  padding-bottom: 35px;
+}
+.profile-wrapper h3 , .cart-wrapper h3{
+  letter-spacing: 4px;
+}
+
+.cart-wrapper h3{
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+.mb-45{
+  margin-bottom: 45px ;
+}
+.mb-25{
+  margin-bottom: 25px;
+}
+.mt--30{
+  margin-top: -30px !important;
+}
+.pl-20{
+  padding-left: 20px;
+}
+.pr-20{
+  padding-right: 20px;
+}
+.pb-20 {
+  padding-bottom: 20px;
+}
+.pt-20{
+  padding-top: 20px;
+ }
+.p-20{
+  padding: 20px;
+}
+
+
+
+#add_payment_method #payment, .woocommerce-cart #payment, .woocommerce-checkout #payment {
+  background: #fff;
+  border-radius: 0;
+}
+#add_payment_method #payment ul.payment_methods li, .woocommerce-cart #payment ul.payment_methods li, .woocommerce-checkout #payment ul.payment_methods li {
+  position: relative;
+  line-height: 2;
+  text-align: left;
+  margin: 0;
+  font-weight: 400;
+  border-bottom: 1px solid #000;
+}
+#add_payment_method #payment ul.payment_methods li input, .woocommerce-cart #payment ul.payment_methods li input, .woocommerce-checkout #payment ul.payment_methods li input{
+  display: none;
+}
+
+.wc_payment_methods label img{
+  display: none;
+}
+.payment_method_cod label{
+  position: relative;
+  width: 100%;
+}
+
+.wc_payment_methods label:after{
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 15px;
+  width: 20px;
+  height: 50px;
+}
+
+.wc_payment_methods li label{
+  line-height: 1.5em;
+}
+
+.payment_method_cod label:after{
+  background: url("../images/card.png") no-repeat center center / auto;
+}
+.payment_method_authorize_net_cim_credit_card label:after{
+  background: url("../images/card.png") no-repeat center center / auto;
+}
+.payment_method_ppec_paypal label:after{
+  background: url("../images/paypal.png") no-repeat center center / auto;
+}
+
+.wc_payment_methods label{
+  margin-bottom: 0;
+  padding: 20px 0;
+}
+.wc_payment_methods input[type=radio] + label{
+  cursor: pointer;
+}
+.wc_payment_methods input[type=radio]:checked + label {
+  color: #f39307;
+}
+
